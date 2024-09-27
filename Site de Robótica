@@ -1,142 +1,24 @@
-<!DOCTYPE html >
-< html  lang =" pt-br " >
-< cabeça >
-    < meta  charset =" UTF-8 " >
-    < meta  name =" viewport " content =" width=largura-do-dispositivo, escala-inicial=1.0 " >
-    <title> Campeonato de Xadrez </title>​​
-    < link  rel =" folha de estilo " href =" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css " >
-    < estilo >
-        corpo {
-            transição: cor de fundo com facilidade de 0,3 s, cor com facilidade de 0,3 s;
-        }
-
-        .mesa {
-            transição: cor de fundo com facilidade de 0,3 s, cor com facilidade de 0,3 s;
-        }
-
-        corpo.modo-escuro {
-            cor de fundo: #343a40;
-            cor: #f8f9fa;
-        }
-
-        .modo escuro .tabela {
-            cor de fundo: #212529;
-            cor: #f8f9fa;
-        }
-    </ estilo >
-</ cabeça >
-< corpo >
-    < div  class =" contêiner " >
-        < h2  class =" text-center mt-5 " > Campeonato de Xadrez </ h2 >
-
-        < div  class =" linha mt-4 " >
-            < div  class =" col-md-6 deslocamento-md-3 " >
-                < tabela  class =" tabela com bordas tabela com listras " >
-                    < thead  class =" thead-light " >
-                        < tr >
-                            < th > INSCRIÇÃO </ th >
-                            < th > PRÊMIO </ th >
-                            < th > ONG </ th >
-                            < th > ADMISTRAÇÃO </ th >
-                        </ tr >
-                    </thead>​​
-                    < corpo >
-                        < tr >
-                            < td > R$1,00 </ td >
-                            < td > R$8,00 </ td >
-                            < td > R$1,00 </ td >
-                            < td > R$1,00 </ td >
-                        </ tr >
-                        < tr >
-                            < td > R$10,00 </ td >
-                            < td > R$80,00 </ td >
-                            < td > R$10,00 </ td >
-                            < td > R$10,00 </ td >
-                        </ tr >
-                        < tr >
-                            < td > R$100,00 </ td >
-                            < td > R$800,00 </ td >
-                            < td > R$100,00 </ td >
-                            < td > R$100,00 </ td >
-                        </ tr >
-                        < tr >
-                            < td > R$1000,00 </ td >
-                            < td > R$8000,00 </ td >
-                            < td > R$1000,00 </ td >
-                            < td > R$1000,00 </ td >
-                        </ tr >
-                    </ corpo >
-                </ tabela >
-            </div>​​
-        </div>​​
-
-        < div  class =" linha mt-4 " >
-            < div  class =" col-md-6 deslocamento-md-3 " >
-                < h3  class =" text-center " > Tabela de Brindes e Pontuação </ h3 >  < table  class =" table table-bordered table-striped " >
-
-                    < thead  class =" thead-light " >
-                        < tr >
-                            < th > Brindes </ th >
-                            < th > Pontuação </ th >
-                        </ tr >
-                    </thead>​​
-                    < corpo >
-                        < tr >
-                            < td > Jogo de Panelas </ td >
-                            < td > 250 Pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Celular </ td >
-                            < td > 1500 Pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Tábua </ td >
-                            < td > 2000 pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Kit de Ferramentas </ td >
-                            < td > 500 Pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Computador </ td >
-                            < td > 2500 Pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Vale Compras de R$ 250,00 </ td >
-                            < td > 375 Pontos </ td >
-                        </ tr >
-                        < tr >
-                            < td > Pix de R$ 500,00 </ td >
-                            < td > 500 Pontos </ td >
-                        </ tr >
-                    </ corpo >
-                </ tabela >
-            </div>​​
-        </div>​​
-
-        < div  class =" linha mt-4 " >
-            < div  class =" col-md-6 deslocamento-md-3 centro-de-texto " >
-                < a  href =" https://www.youtube.com/watch?v=S1LsUT7jjDI " target =" _blank " > Como Jogar Xadrez </ a > |
-                < a  href =" https://www.youtube.com/watch?v=8gfWyQb6fIU " target =" _blank " > Regras do Campeonato </ a >
-            </div>​​
-        </div>​​
-    </div>​​
-
-    < script  src =" https://code.jquery.com/jquery-3.5.1.slim.min.js " > </ script >
-    < script  src =" https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " > </ script >
-    < script  src =" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " > </ script >
-    < roteiro >
-
-    // Funções adicionais para ajuste de tema
-        função  detectTheme ( )  {
-            retornar  janela . matchMedia  &&  janela . matchMedia ( '(prefere-esquema-de-cores: escuro)' ) . correspondências ? 'modo-escuro' : 'modo-claro' ;
-        }
-
-        documento . corpo . classList . adicionar ( detectTheme ( ) ) ;
-
-        janela . matchMedia ( '(prefere-esquema-de-cores: escuro)' ) . addEventListener ( 'alterar' ,  evento  =>  {
-            documento . corpo . nomedaclasse  =  evento . correspondências ? 'modo-escuro' : 'modo-claro' ;
-        } ) ;
-    </ script >
-</ corpo >
-</ html >
+<html>
+<h1>
+<p>🎀Entrevista com Sabrina Carpenter🎀<p>
+<p>Sabrina Carpenter começou como atriz e depois migrou para a música, onde se destacou por suas letras autênticas e emocionais. Com diversos álbuns lançados, ela tem conquistado fãs ao redor do mundo e abriu shows para Taylor Swift na The Eras Tour.<p>
+<p>• Por que você migrou da televisão como atriz para os palcos como cantora?<p>
+<h2>
+<p>Sabrina Carpenter:Acho que muitas pessoas assumem que eu deixei a atuação para trás, mas não foi uma ruptura definitiva. Eu ainda leio roteiros e procuro pelos papéis certos; só que, ultimamente, muitos projetos que recebi parecem algo que já foi feito. A música sempre foi uma parte enorme de mim. Quando eu era mais nova, as pessoas achavam que estar no entretenimento era o sonho dos meus pais, mas sempre foi o meu. A música é mais pessoal porque eu conto a minha própria história, enquanto na atuação estou contando a história de outra pessoa.<p>
+<h1>
+<p>• Como foi abrir o show da Taylor Swift na The Eras Tour?<p>
+<h2>
+<p>Sabrina Carpenter: Foi surreal! A Taylor é alguém que admiro há muito tempo, e ter a chance de me apresentar para um público tão incrível foi a realização de um sonho. A energia dela e a conexão que tem com os fãs são algo que também almejo para minha carreira. Aprendi muito só de observar como ela gerencia suas performances e como consegue ser tão autêntica, mesmo com produções tão grandiosas.<p> 
+<h1>
+<p>• Fale-nos sobre o novo álbum lançado em 2024 e a sua nova turnê.<p>
+<h2>
+<p>Sabrina Carpenter:Esse álbum parece ser o trabalho mais pessoal que já fiz. Me inspirei em muitas experiências de vida dos últimos anos. Houve muito crescimento, e com isso vêm novas perspectivas. Esta turnê será algo especial — tem tanta coisa que quero compartilhar com meus fãs, tanto na música quanto na narrativa visual. Mal posso esperar para que todos vejam o que planejamos.<p>
+<h1>
+<p>• Sabrina, como você enxerga seu futuro na música? Tem mais projetos a serem lançados?<p>
+<h2>
+<p>Sabrina Carpenter: "Eu sinto que ainda há muito mais que quero explorar na música. Desde que mudei de gravadora e tive a oportunidade de me expressar com mais liberdade, isso me fez perceber que o futuro é cheio de possibilidades. Eu realmente acredito que esse é só o começo. Quero continuar a criar músicas que sejam sinceras e ressoem com as pessoas. E, sim, definitivamente tenho novos projetos a caminho, e mal posso esperar para compartilhar com todos."<p>
+<h1>
+<p>• Seu álbum mais recente, lançado agora em 2024, parece mais pessoal e vulnerável. Como foi o processo de criação?<p>
+<h2>
+<p>Sabrina Carpenter:"Eu sempre tento colocar minhas experiências nas minhas músicas, e esse álbum é definitivamente um dos mais pessoais que já fiz. Foi uma jornada de auto descoberta e muita experimentação. Sinto que é importante ser honesta e, às vezes, isso significa me expor de formas que podem ser desconfortáveis. Mas no final, foi libertador e acho que muitos dos meus fãs se identificaram com isso.<p>
+</html>
